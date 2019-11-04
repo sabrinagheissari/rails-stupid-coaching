@@ -1,0 +1,32 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$yellow: #FFFEE1;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  padding: 0px 20px;
+}
+
+.user {
+  border-left: 10px solid;
+  border-color: grey;
+  margin: 20px;
+  padding: 10px;
+}
+
+.coach {
+  background: $yellow;
+  border-left: 10px solid;
+  border-color: grey;
+  margin: 20px;
+  padding: 10px;
+}
+
+#italian {
+  font-style: italic;
+}
+
